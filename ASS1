@@ -60,9 +60,13 @@ import java.rmi.*;
   public interface AddServerIntf extends Remote {
      double add(double d1, double d2) throws RemoteException;
 }
-
-
-
-
-
+///////////////////////////////////////////////////////////////////////////////////////////
+Create a folder in desktop and in it create seperate four files
+cd Desktop/DS1/ > ls > javac *.java > rmic AddServerIntf.java > rmic AddServerImpl >
+In the same desktop folder create one client folder and in it copy AddClient.class , AddServerImpl_Stub.class , AddServerIntf.class
+In the same desktop folder create one server folder and in it copy AddServerIntf.class , AddServerImpl.class , AddServerImpl_Stub.class
+, AddServer.class
+rmiregistry
+In new terminal cd Desktop/DS1/server/ > java AddServer
+Again open new terminal cd Desktop/DS1/client/ > java AddClient 127.0.0.1 4 5 (10.0.2.15) 
 
