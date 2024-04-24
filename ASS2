@@ -119,4 +119,11 @@ e.printStackTrace();
     } 
   } 
 }
-
+/////////////////////////////////////////////////////////////////////////////////////////////
+Create a folder in desktop and in it create four seperate files 
+TERMINAL 1
+cd Desktop/DS2/ > ls > idlj -fall ReverseModule.idl > javac *.java ReverseModule/*.java > orbd -ORBInitialPort 1056& 
+> java ReverseServer -ORBInitialPort 1056& 
+Open another terminal 
+TERMINAL 2
+java ReverseClient -ORBInitialPort 1056 -ORBInitialHost localhost
