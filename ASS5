@@ -47,3 +47,5 @@ System.out.println("Error occurred: " + e.getMessage());
     }
   }
 }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+To run the program in terminal > cd Desktop/DS5(write the name of the file)/ > java Tring.java
