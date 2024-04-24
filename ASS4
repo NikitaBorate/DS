@@ -105,3 +105,5 @@ calendar.add(Calendar.MILLISECOND, (int)
 avgTimeDiff); System.out.println("Adjusted time: " + calendar.getTime());
   }
 }
+///////////////////////////////////////////////////////////////////////////////////////////
+To run the program in the terminal > cd Desktop/DS4/ > java Berkeley.java 
